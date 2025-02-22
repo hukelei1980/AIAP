@@ -3,10 +3,9 @@
 ## 1. 模型接入
 
 ### 支持的模型
-- OpenAI GPT系列
-- Anthropic Claude
-- Cohere
-- 本地部署模型（如LLaMA, ChatGLM）
+- DEEPSEEK系列
+- LLM系列
+- 本地部署模型（如LLaMA, DEEPSEEK）
 
 ### 配置示例
 ```yaml
