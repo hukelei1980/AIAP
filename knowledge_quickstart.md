@@ -1,20 +1,20 @@
 # 知识库管理快速开发指南
 
-## 1. 知识库创建
+1. 知识库创建
 
-### 初始化知识库
-```python
+初始化知识库
+python
 from app.core.knowledge_base import KnowledgeBase
 
-# 创建新知识库
+创建新知识库
 kb = KnowledgeBase(name="AI开发知识库")
 添加文档
 
 python
-# 添加单个文档
+添加单个文档
 kb.add_document(title="AI平台介绍", content="AI开发平台是一个综合性平台...")
 
-# 批量添加文档
+批量添加文档
 documents = [
     {"title": "功能特性", "content": "支持大语言模型集成..."},
     {"title": "快速开始", "content": "环境要求：Python 3.10+..."}
